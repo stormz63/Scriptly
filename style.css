@@ -1,0 +1,33 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    font-family: 'Roboto', sans-serif;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: #101d1f ;
+    color: white; 
+}
+
+button
+{
+    font-size: large;
+    height: 40px;
+    border-radius: 8px;
+    width: 60px;
+    background-color: #366369;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover
+{
+    background-color: #30585e;
+}
