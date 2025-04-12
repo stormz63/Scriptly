@@ -11,13 +11,20 @@ body
     justify-content: center;
     align-items: center;
     display: flex;
-    background-color: #101d1f ;
+    flex-direction: column;
+    background-color: #29494e;
     color: white;
+}
+
+main
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
 
 button
 {
-    font-size: large;
     height: 40px;
     border-radius: 8px;
     width: 60px;
@@ -30,4 +37,89 @@ button
 button:hover
 {
     background-color: #30585e;
+}
+
+header
+{
+    width: 100%;
+    background-color: #101d1f;
+    height: 125px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    justify-content: space-between;
+    clear: both;
+}
+
+.header-left,
+.header-center,
+.header-right
+{
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+.header-left
+{
+    justify-content: flex-start;
+}
+
+.header-center
+{
+    justify-content: center;
+}
+
+.header-right
+{
+    justify-content: flex-end;
+}
+
+header h2
+{
+    text-align: center;
+}
+
+.logo-button
+{
+    border: none;
+    cursor: pointer;
+    margin-left: 60px;
+}
+
+.logo-button img
+{
+    height: 60px;
+}
+
+.container
+{
+    background-color: rgb(107, 107, 107);
+    border: solid;
+    border-color: rgb(39, 39, 39);
+    width: 35%;
+    justify-content: center;
+    display: flex;
+    height: 90px;
+    align-items: center;
+}
+
+.logo-container
+{
+    margin-right: 40px;
+}
+
+.contact-h2
+{
+    margin-right: 50%;
+}
+
+.register-btn
+{
+    margin-right: 60px;
+}
+
+.form
+{
+    clear: both;
 }
